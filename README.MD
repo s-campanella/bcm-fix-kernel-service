@@ -1,6 +1,6 @@
 # Broadcom Wi-Fi Service Patch for MacBook Pro 2011 on Ubuntu
 
-On recent Ubuntu releases Broadcom Wi-Fi network card (installed on the MacBook Pro late 2011) does not work at all, as expected.
+On recent Ubuntu releases, Broadcom Wi-Fi network card (installed on the MacBook Pro late 2011) does not work at all, as expected.
 After reviewing various community solutions, I've developed a startup service that, upon boot, reinitializes kernel module for this network card.
 
 ## Prerequisites
