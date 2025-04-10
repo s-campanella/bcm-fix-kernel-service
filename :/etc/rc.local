@@ -1,0 +1,3 @@
+modprobe -r b44 b43 b43leacy ssb brcmsmac brcmsmac
+modprobe -rf wl
+modprobe -vv wl

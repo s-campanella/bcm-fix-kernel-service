@@ -1,0 +1,8 @@
+[Unit]
+Description=Broadcom startup service patch fix
+
+[Service]
+ExecStart=/usr/local/bin/wifi-reset.sh
+
+[Install]
+WantedBy=multi-user.target
